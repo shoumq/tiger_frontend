@@ -1,0 +1,32 @@
+.auth {
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    .login {
+        label {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            border: 1px solid rgb(172, 172, 172);
+            outline: none;
+            padding: 3px 7px;
+            font-size: 15px;
+        }
+    }
+
+    .flex {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: black !important;
+        }
+    }
+}

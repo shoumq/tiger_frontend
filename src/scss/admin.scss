@@ -1,0 +1,35 @@
+.admin {
+    background-color: white;
+    padding: 30px 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+
+    .sub_tilte {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 35px;
+        font-weight: 600;
+    }
+
+    .tilte {
+        font-size: 23px;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        margin-bottom: 10px;
+    }
+
+    input {
+        border: 1px solid rgb(172, 172, 172);
+        outline: none;
+        padding: 3px 7px;
+        font-size: 15px;
+    }
+
+    .btn {
+        margin-top: 30px;
+    }
+}

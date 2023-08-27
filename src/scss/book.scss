@@ -1,0 +1,70 @@
+.book {
+    width: 450px;
+    margin-inline: auto;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+
+        @media (max-width: 768px) {
+            gap: 10px;
+            padding: 0 20px;
+        }
+
+        &_title {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 7px;
+        }
+
+        &_author {
+            font-size: 13px;
+            font-weight: 600;
+            color: rgb(93, 192, 231);
+        }
+
+        &_date {
+            display: flex;
+            justify-content: space-between;
+
+            @media (max-width: 768px) {
+                justify-content: flex-start;
+                gap: 10px;
+            }
+        }
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .desc {
+        margin-top: 40px;
+        font-size: 20px;
+        color: rgb(61, 61, 61);
+
+        @media (max-width: 768px) {
+            padding: 0 20px;
+        }
+    }
+
+    .price {
+        margin-top: 10px;
+
+        @media (max-width: 768px) {
+            padding: 0 20px;
+        }
+    }
+}
